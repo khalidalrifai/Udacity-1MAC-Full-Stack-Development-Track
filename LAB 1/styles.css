@@ -1,40 +1,73 @@
-/* Box Dimensions/Properties */
+/* Page Background */
+body {
+	background: #F9F9F9
+}
+
+/* Box Dimensions and Properties */
 #container {
-  width: 310px;
-  border: 1px solid #DCDCDC;
-  box-shadow: 6px 6px 1px 0px #EBEBEB;
-  padding-right: 1.5em;
-  padding-left: 1.5em;
-  padding-bottom: 1.5em;
-  padding-top: 1.5em;
+	width: 300px;
+	margin: 50px auto;
+	border: 1px solid #DCDCDC;
+	border-radius: 20px;
+	box-shadow: 6px 6px 1px 0px #EBEBEB;
+	background: #FDFDFD;
+	padding-top: 1.5em;
+	padding-bottom: 1.5em;
+	padding-right: 1.5em;
+	padding-left: 1.5em;
+}
+
+/* Design of the Animal's Name */
+#container h1 {
+	border: 1px solid #CCCCCC
+	/*font-weight: bold;*/
+	margin-top: 15px;
+	font-size: 30px;
+	font-family: 'Courgette', cursive;
+	text-align: center;
 }
 
 #card {
-  width: 283px;
-  border: 1px solid #DCDCDC;
-  padding-right: .5em;
-  padding-left: .5em;
+	width: 283px;
+	border: 1px solid #DCDCDC;
+	/*padding-right: .5em;
+  padding-left: .5em;*/
+	margin-top: 10px;
+	padding: 10px;
+	border-radius: 20px 20px;
+	font-family: 'Josefin Slab', serif;
+	text-align: justify;
 }
 
 /* Image */
 #animalPicture {
-  width: 300px;
-  height: 200px;
-  padding-bottom: .8em;
+	width: 300px;
+	height: 200px;
+	border-radius: 20px 20px
+	/*padding-bottom: .8em;*/
 }
 
 /* Interesting Fact */
 #interesting-fact {
-  font-style: italic;
-  align-content: center;
+	font-style: italic;
+	/*align-content: center;*/
 }
 
-/* List Information */
-#facts{
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
+/* Information List */
+#facts {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
 }
-span {
-  font-weight: bold;
+
+#facts li span {
+	font-weight: bold;
+	font-family: 'Times New Roman', Serif;
+}
+
+/* Summary Part */
+#summary {
+	font-family: 'Gloria Hallelujah', cursive;
+	font-size: 14px;
+	line-height: 22px
 }
